@@ -1,0 +1,24 @@
+#step 1 isolate each letter 
+#step 2 check if the letter is M or N
+#step 3 if letter is M decrease value of M by 1 and print it
+#sep 4 if letter is N increase value of N by 1 and print it
+def eminem(s):
+    #sample MNMNMNM
+    m_value = len(s)
+    n_value = 1
+    for i in range(0, len(s)):
+        letter = s[i] #isolated one letter
+       
+        #step 2 checking characters
+        if letter == 'M':
+            #body
+            
+            print(m_value)
+            m_value -=1
+        elif letter == 'N':
+            #body
+            
+            print(n_value)
+            n_value +=1
+eminem('NNNNNN')
+#end of code
